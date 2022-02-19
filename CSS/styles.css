@@ -2,15 +2,23 @@ body{
     margin: 0px;
     text-align: center;
     font-family:'Merriweather', serif;
+    font-size: 16px;
 }
 h1{
-    margin-top: 0px;
+    font-size: 5rem;                                                      /*18px=100%=1em =1rem*/
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+                                                                         /*line-height: 2;*/
 }
 h2{
+    font-size:2.22rem;
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 }    
 h3{
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
   
@@ -24,28 +32,73 @@ h3{
     
 }
 .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+   
     
 
 }
 .bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;}
 
+
+}
 .pro{
     text-decoration: underline;
 }    
 .bottom-cloud{
     position:absolute;
     left: 300px;
-    bottom: 650px;
+    bottom: 1500px;
 } 
 .top-cloud{
     position: absolute;
     right: 300px;
     top: 50px;
 }
+.doraemon{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.btn{
+    color: #11999E;
 
+}
+.footer-link{
+
+    color: #11999E;
+}
+.skill-row{
+     
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    
+    
+
+}
+.php_img{
+ 
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+   
+    
+}
+.api_img{
+ 
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    
+}
+//*
+.php-para{
+
+    clear: left;
+}
+.api-para{
+
+    clear: right;
+}
+*/
